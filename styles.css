@@ -1,0 +1,189 @@
+/* body reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* container styling */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77b300 3px solid;
+}
+
+/* header links */
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* header list */
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+/* logo styling */
+.logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navigation styling */
+.main-nav {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* content styling */
+.content {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.content img {
+    border-radius: 50%;
+}
+
+.content h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+.content p {
+    font-size: 1.2em;
+}
+
+/* services section styling */
+.services {
+    margin-top: 20px;
+}
+
+/* carousel styling */
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-inner {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    clip-path: circle(80%);
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+    display: none; /* hide all slides initially */
+}
+
+.carousel-item.active {
+    display: block; /* show only the active slide */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* footer styling */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #77b300;
+    text-decoration: none;
+}
+
+/* additional styling */
+.logo-img {
+    width: 150px;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.principal {
+    margin: 0;
+    padding: 0;
+}
+
+.principal a {
+    font-size: 1em;
+}
+
+.location {
+    clip-path: circle(80%);
+}
+
+.principal:hover {
+    text-decoration: underline;
+    transition: text-decoration 1s;
+}
